@@ -4,3 +4,6 @@ findandModify
 
 
 https://docs.mongodb.com/v3.2/tutorial/query-documents/
+
+
+https://docs.mongodb.com/manual/reference/operator/query/
