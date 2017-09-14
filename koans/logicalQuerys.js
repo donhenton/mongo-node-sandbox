@@ -93,7 +93,7 @@ function testIn()
         var query = {};
         query["$and"] = [{"reviews.starRating": {'$in': [2]}}, {"reviews": {"$size": 1}}];
 
-        var projection = {"name": 1, 'city': 1, "_id": 0}
+        var projection = {"name": 1, 'city': 1, "_id": 0};
         projection = {}
         var counter = 0;
         var cursor = db.collection('restaurants').find(query);
